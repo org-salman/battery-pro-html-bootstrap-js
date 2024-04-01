@@ -1,0 +1,88 @@
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    margin-right: inherit !important;
+}
+
+/* Custom CSS for adjusting padding */
+.nav-item {
+    padding: 0.1rem 0;
+}
+/* Custom styles */
+.container-fluid {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+ .row > :first-child {
+    max-width: 100% !important;
+    padding-right: calc(var(--bs-gutter-x) * .0) !important;
+    padding-left: calc(var(--bs-gutter-x) * .0) !important;
+}
+.row > :nth-child(2) {
+    max-width: 100% !important;
+    padding-right: calc(var(--bs-gutter-x) * .5) !important;
+    padding-left: calc(var(--bs-gutter-x) * 2) !important;
+}
+.sidebar {
+    width: 200px; /* Default width for the sidebar */
+}
+.content {
+    width: calc(100% - 200px); /* Initial width for the main content area */
+}
+
+@media (max-width: 576px) {
+    /* Extra small devices (phones) */
+    .sidebar {
+        width: 120px; /* Full width on extra small devices */
+    }
+    .content {
+        width: calc(100% - 50px); /* Adjust width for small devices */
+        /* width: 150px; Full width on extra small devices */
+    }
+    .row > :nth-child(2) {
+        max-width: 100% !important;
+        padding-right: calc(var(--bs-gutter-x) * .5) !important;
+        padding-left: calc(var(--bs-gutter-x) * .2) !important;
+    }
+    .col-2 {
+        flex: 0 0 auto;
+        width: 31.66666667% !important;
+    }
+    .col-10 {
+        flex: 0 0 auto;
+        width: 80.33333333% !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Small devices (tablets) */
+    .sidebar {
+        width: 150px !important; /* Adjust width for small devices */
+    }
+    .content {
+        width: calc(100% - 100px); /* Adjust width for small devices */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Medium devices (desktops) */
+    .sidebar {
+        width: 150px !important; /* Adjust width for medium devices */
+    }
+    .content {
+        width: calc(100% - 100px); /* Adjust width for medium devices */
+    }
+}
+
+@media (min-width: 993px) {
+    /* Large devices (large desktops) */
+    .sidebar {
+        width: 200px ; /* Adjust width for large devices */
+    }
+    .content {
+        width: calc(100% - 100px); /* Adjust width for large devices */
+    }
+}

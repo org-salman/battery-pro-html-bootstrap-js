@@ -1,0 +1,21 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore any compiled output
+dist/
+
+# Ignore log files
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db

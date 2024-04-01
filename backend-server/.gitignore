@@ -1,0 +1,18 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore npm lock file
+package-lock.json
+
+# Ignore any local environment files
+.env
+
+# Ignore editor/IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
