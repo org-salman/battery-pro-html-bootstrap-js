@@ -38,6 +38,6 @@ This repository contains the backend server for the project. Follow the instruct
 To start the backend server, run:
 
 ```bash
-npm start
+node start
 
 
