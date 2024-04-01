@@ -40,6 +40,7 @@ To start the backend server, run:
 ```bash
 npm start
 ```
+OR
 
 ```bash
 node server.js
