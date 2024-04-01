@@ -33,16 +33,16 @@ The frontend directory contains the client-side code for the BMS Service Portal.
 
 frontend/
 ├── css/
-│   └── styles.css
+│ └── styles.css
 ├── js/
-│   ├── login.js
-│   ├── register.js
-│   └── script.js
+│ ├── login.js
+│ ├── register.js
+│ └── script.js
 └── pages/
-    ├── battery_status.html
-    ├── home.html
-    ├── login.html
-    └── register.html
+├── battery_status.html
+├── home.html
+├── login.html
+└── register.html
 Usage
 To run the frontend locally:
 
