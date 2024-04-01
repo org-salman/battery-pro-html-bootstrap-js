@@ -7,7 +7,7 @@ This repository contains the backend server for the project. Follow the instruct
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/org-salman/battery-pro-html-bootstrap-js.git
     ```
 
 2. **Navigate to the backend-server directory:**
